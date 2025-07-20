@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSO Servicios</title>
+
+   <link rel="stylesheet" href="estilos.css">
+   <link rel="icon" href="osito.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-success bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="inicio.html"> <i class="bi bi-globe"></i> OSOS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="inicio.html"> <i class="bi bi-house me-1"></i> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="servicios.html"> <i class="bi bi-tools me-1"></i> Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"><i class="bi bi-telephone-fill me-1"></i> Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center my-5">
+  <h2 class="mb-6">Nuestros Servicios</h2><br><br>
+
+  <div class="row justify-content-center">
+
+    <div class="col-md-5 mb-5">
+      <div class="card h-100">
+        <img src="https://universidadeuropea.com/resources/media/images/medicina-veterinaria-1200x630.original.jpg" class="card-img-top card-img-custom" alt="consulta">
+        <div class="card-body">
+          <h5 class="card-title">Consulta</h5>
+          <p class="card-text">Consulta sobre la salud de tu mascota, chequeo médico</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 mb-5">
+      <div class="card h-100">
+        <img src="https://blog.mascotaysalud.com/wp-content/uploads/2018/10/cortar-pelo.jpg" class="card-img-top card-img-custom" alt="baño">
+        <div class="card-body">
+          <h5 class="card-title">Baño</h5>
+          <p class="card-text">Limpieza detenida a tu mascota</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 mb-5">
+      <div class="card h-100">
+        <img src="https://img.interempresas.net/fotos/3261154.jpeg" class="card-img-top card-img-custom" alt="corte">
+        <div class="card-body">
+          <h5 class="card-title">Corte</h5>
+          <p class="card-text">Corte estético a tu mascota.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5 text-center">
+  <h2>Información Detallada</h2>
+</div>
+
+<div class="container mb-5">
+  <ul class="nav nav-tabs" id="infoTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="consulta-tab" data-bs-toggle="tab" data-bs-target="#consulta" type="button" role="tab" aria-controls="consulta" aria-selected="true">Consulta</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="balo-tab" data-bs-toggle="tab" data-bs-target="#balo" type="button" role="tab" aria-controls="balo" aria-selected="false">Balo</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="corte-tab" data-bs-toggle="tab" data-bs-target="#corte" type="button" role="tab" aria-controls="corte" aria-selected="false">Corte</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="otro-tab" data-bs-toggle="tab" data-bs-target="#otro" type="button" role="tab" aria-controls="otro" aria-selected="false">Otro</button>
+    </li>
+  </ul>
+
+  <div class="tab-content p-4 border border-top-0" id="infoTabsContent">
+
+    <div class="tab-pane fade show active" id="consulta" role="tabpanel" aria-labelledby="consulta-tab">
+      <p>La consulta inicial es fundamental para entender las necesidades del cliente y ofrecerle las soluciones más adecuadas. Durante esta etapa se analizan los objetivos, el contexto del problema y las expectativas. Se recomienda venir con toda la información posible para agilizar el proceso.</p>
+    </div>
+
+    <div class="tab-pane fade" id="balo" role="tabpanel" aria-labelledby="balo-tab">
+      <p>El servicio de balo ofrece un análisis exhaustivo y detallado sobre las condiciones actuales del sistema. Se evalúan aspectos técnicos y funcionales, asegurando un diagnóstico preciso que permita tomar decisiones informadas sobre los pasos a seguir.</p>
+    </div>
+
+    <div class="tab-pane fade" id="corte" role="tabpanel" aria-labelledby="corte-tab">
+      <p>El corte se realiza bajo estrictas medidas de seguridad y precisión. Utilizamos herramientas de alta calidad que garantizan un acabado limpio y eficiente. Este proceso es realizado por técnicos especializados para evitar errores o retrabajos innecesarios.</p>
+    </div>
+
+    <div class="tab-pane fade" id="otro" role="tabpanel" aria-labelledby="otro-tab">
+      <p>En esta sección incluimos todos aquellos procedimientos y atenciones complementarias que no están cubiertos en los apartados anteriores. Esto puede incluir ajustes finales, revisiones adicionales o sugerencias para el mantenimiento y optimización del servicio.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container my-4 text-center">
+  <h2>Preguntas Frecuentes</h2>
+</div>
+
+<div class="container mb-5">
+  <div class="accordion" id="faqAccordion">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+          ¿Hay un único precio?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          No, los precios pueden variar dependiendo del tipo de servicio, la complejidad del trabajo y los materiales requeridos. Ofrecemos cotizaciones personalizadas para cada cliente.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+          ¿Cuál es el horario de atención?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Atendemos de lunes a sábado, de 9:00 a.m. a 6:00 p.m. En casos especiales, también ofrecemos atención previa cita fuera del horario habitual.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+          ¿Realizan servicios a domicilio?
+        </button>
+      </h2>
+      <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Sí, ofrecemos servicios a domicilio dentro de determinadas zonas. Te recomendamos consultar disponibilidad al momento de agendar tu cita.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="bg-success text-white text-center py-3 mt-5">
+    <small>&copy; 2025 OSO. Todos los derechos reservados.</small>
+  </footer>

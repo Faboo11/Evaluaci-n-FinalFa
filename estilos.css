@@ -1,0 +1,29 @@
+
+.card{
+    text-align: center;
+}
+
+
+.carousel-custom {
+      max-width: 1300px;
+      padding: 20px;
+      margin: 0 auto;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.carousel-custom img {
+      height: 350px;
+      object-fit: cover;
+      width: 100%;
+}
+
+p{
+    text-align: left;
+}
+
+.card-img-custom {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
